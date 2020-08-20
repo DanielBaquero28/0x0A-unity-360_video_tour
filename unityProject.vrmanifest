@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.0x0aunity360_video_tour.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\User\\Documents\\Alejandro's GitHub Projects\\0x0A-unity-360_video_tour\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "0x0A-unity-360_video_tour [Testing]"
+        }
+      }
+    }
+  ]
+}
