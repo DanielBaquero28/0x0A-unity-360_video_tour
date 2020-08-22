@@ -57,6 +57,11 @@ The transition between rooms can cause disorientation and discomfort. Create a t
 Create an Audio Mixer called BGMMixer with a new child group called Music. Apply it to the “Tech Live” audio and lower Music‘s Volume to -10.00dB.</li>
 <li><strong>Task 7: </strong>Create a build of the tour in a Builds directory and name it based on your targeted device (ex. 360VideoTour_<TargetHeadsetName> -> 360VideoTour_OculusGo).</li>
 </ul>
+<p>Credits:
+<ul>
+<li>Music: <a href="https://incompetech.filmmusic.io/song/4463-tech-live/">Tech Live by Kevin MacLeod</a></li>
+</ul>
+</p>
 </body>
 <footer>Project made by: <a href="https://github.com/DanielBaquero28">Daniel Baquero</footer>
 </html>

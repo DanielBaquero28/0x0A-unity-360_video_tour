@@ -4,7 +4,6 @@ using UnityEngine.Video;
 public class ButtonsManager : MonoBehaviour
 {
     //public GameObject cam;
-
     public GameObject livingRoom;
     public GameObject cantina;
     public GameObject cube;
@@ -12,7 +11,12 @@ public class ButtonsManager : MonoBehaviour
 
     public GameObject canvas;
 
-    public GameObject infoBox;
+    public GameObject infoBoxLiv1;
+    public GameObject infoBoxLiv2;
+    public GameObject infoBoxCan1;
+    public GameObject infoBoxCube1;
+    public GameObject infoBoxMezz1;
+    public GameObject infoBoxMezz2;
 
     GameObject livingRoomCanvas;
     GameObject cantinaCanvas;
@@ -37,7 +41,9 @@ public class ButtonsManager : MonoBehaviour
         livingRoomCanvas.SetActive(false);
         cantinaCanvas.SetActive(true);
         cubeCanvas.SetActive(false);
-        infoBox.SetActive(false);
+        infoBoxLiv1.SetActive(false);
+        infoBoxLiv2.SetActive(false);
+        infoBoxCube1.SetActive(false);
     }
 
     public void ToLivingRoom()
@@ -49,6 +55,8 @@ public class ButtonsManager : MonoBehaviour
         cubeCanvas.SetActive(false);
         livingRoomCanvas.SetActive(true);
         cantinaCanvas.SetActive(false);
+        infoBoxCan1.SetActive(false);
+        infoBoxCube1.SetActive(false);
     }
 
     public void ToCube()
@@ -62,7 +70,11 @@ public class ButtonsManager : MonoBehaviour
         cantinaCanvas.SetActive(false);
         cubeCanvas.SetActive(true);
         mezzanineCanvas.SetActive(false);
-        infoBox.SetActive(false);
+        infoBoxLiv1.SetActive(false);
+        infoBoxLiv2.SetActive(false);
+        infoBoxCan1.SetActive(false);
+        infoBoxMezz1.SetActive(false);
+        infoBoxMezz2.SetActive(false);
     }
 
     public void ToMezzanine()
@@ -72,17 +84,79 @@ public class ButtonsManager : MonoBehaviour
         mezzanine.SetActive(true);
         cubeCanvas.SetActive(false);
         mezzanineCanvas.SetActive(true);
+        infoBoxCube1.SetActive(false);
     }
 
-    public void InfoBox()
+    public void InfoBoxLiv1()
     {
-        if (!infoBox.activeSelf)
+        if (!infoBoxLiv1.activeSelf)
         {
-            infoBox.SetActive(true);
+            infoBoxLiv1.SetActive(true);
         }
         else
         {
-            infoBox.SetActive(false);
+            infoBoxLiv1.SetActive(false);
         }
     }
+
+    public void InfoBoxLiv2()
+    {
+        if (!infoBoxLiv2.activeSelf)
+        {
+            infoBoxLiv2.SetActive(true);
+        }
+        else
+        {
+            infoBoxLiv2.SetActive(false);
+        }
+    }
+
+    public void InfoBoxCan1()
+    {
+        if (!infoBoxCan1.activeSelf)
+        {
+            infoBoxCan1.SetActive(true);
+        }
+        else
+        {
+            infoBoxCan1.SetActive(false);
+        }
+    }
+
+    public void InfoBoxCube1()
+    {
+        if (!infoBoxCube1.activeSelf)
+        {
+            infoBoxCube1.SetActive(true);
+        }
+        else
+        {
+            infoBoxCube1.SetActive(false);
+        }
+    }
+
+    public void InfoBoxMezz1()
+    {
+        if (!infoBoxMezz1.activeSelf)
+        {
+            infoBoxMezz1.SetActive(true);
+        }
+        else
+        {
+            infoBoxMezz1.SetActive(false);
+        }
+    }
+
+    public void InfoBoxMezz2()
+    {
+        if (!infoBoxMezz2.activeSelf)
+        {
+            infoBoxMezz2.SetActive(true);
+        }
+        else
+        {
+            infoBoxMezz2.SetActive(false);
+        }
+    }
+
 }
