@@ -62,6 +62,7 @@ Create an Audio Mixer called BGMMixer with a new child group called Music. Apply
 <li>Music: <a href="https://incompetech.filmmusic.io/song/4463-tech-live/">Tech Live by Kevin MacLeod</a></li>
 </ul>
 </p>
+<p>Note: In order to test this project you will have to download the Steam VR Plugin in <a href="https://assetstore.unity.com/packages/tools/integration/steamvr-plugin-32647">Unity's Asset Store</a></p>
 </body>
 <footer>Project made by: <a href="https://github.com/DanielBaquero28">Daniel Baquero</footer>
 </html>
